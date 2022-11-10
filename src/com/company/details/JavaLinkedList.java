@@ -70,5 +70,11 @@ public class JavaLinkedList {
         JavaLinkedList  list = new JavaLinkedList();
         list.addFirst(70);
         list.printList();
+//        list.addFirst(30);
+        list.addFirst(56);
+        list.printList();
+
+        list.addFirst(30);
+        list.printList();
     }
 }
