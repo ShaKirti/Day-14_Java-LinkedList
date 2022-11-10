@@ -67,5 +67,8 @@ public class JavaLinkedList {
             System.out.println("Null");
         }
     public static void main(String[] args){
+        JavaLinkedList  list = new JavaLinkedList();
+        list.addFirst(70);
+        list.printList();
     }
 }
