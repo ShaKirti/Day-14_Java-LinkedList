@@ -2,14 +2,14 @@ package com.company.details;
 public class CompanyShams {
     Node head;
     class Node{
-        String data;
+        int data;
         Node next;
-        Node(String data){
+        Node(int data){
             this.data = data;
             this.next = next;
         }
     }
-        public void addFirst(String data){
+        public void addFirst(int data){
             Node newNode = new Node(data);
             if (head == null){
                 head = newNode;
@@ -18,7 +18,7 @@ public class CompanyShams {
             newNode.next = head;
             head = newNode;
         }
-        public void addLast(String data){
+        public void addLast(int data){
             Node newNode = new Node(data);
             if (head == null){
                 head = newNode;
