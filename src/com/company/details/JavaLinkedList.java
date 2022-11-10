@@ -1,5 +1,5 @@
 package com.company.details;
-public class CompanyShams {
+public class JavaLinkedList {
     Node head;
     class Node{
         int data;
